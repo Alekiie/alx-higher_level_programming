@@ -2,10 +2,8 @@
 import random
 number = random.randint(-10, 10)
 x = int(repr(number)[-1])
-string1 = "Last digit of"
-string2 = "is"
 if(x > 5):
-    print(f"{string1} {number} {string2} {x} and is greater than 5")
+    print(f"Last digit of {number} is {x} and is greater than 5")
 elif(x == 0):
     print(f"{string1} {number} {string2} {x} and is 0")
 else:
