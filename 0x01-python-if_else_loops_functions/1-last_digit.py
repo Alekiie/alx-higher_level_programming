@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10, 10)
-x = int(repr(number[0]))
+x = int(repr(number)[-1])
 string1 = "Last digit of"
 string2 = "is"
 if(x > 5):
